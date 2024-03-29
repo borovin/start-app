@@ -1,13 +1,9 @@
-import { FC, ReactElement } from 'react'
+import { FC, ReactElement } from "react";
 
 const Page: FC<{ children: ReactElement | ReactElement[] }> = (props) => {
-  const { children } = props
+  const { children } = props;
 
-  return (
-    <div>
-      {children}
-      </div>
-  )
-}
+  return <div>{children}</div>;
+};
 
-export default Page
+export default Page;
